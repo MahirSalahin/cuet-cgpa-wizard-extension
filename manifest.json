@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "CUET CGPA Calculator",
+  "name": "CUET CGPA Wizard",
   "version": "1.0",
   "description": "Automatically calculates CGPA from CUET result table",
   "permissions": ["activeTab", "scripting"],
