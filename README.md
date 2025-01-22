@@ -10,12 +10,13 @@ A Chromium extension that automatically calculates your CGPA from your CUET stud
 
 ## Installation
 
-1. Download or clone this repository
-2. Open Chrome/Brave/Edge browser
-3. Go to `chrome://extensions` or `brave://extensions` or `edge://extensions`
-4. Enable `Developer mode` in the top-right corner
-5. Click `Load unpacked` button
-6. Select the extension folder
+1. [Click here](https://github.com/MahirSalahin/cuet-cgpa-wizard-extension/archive/refs/heads/main.zip) to download the extension
+2. Extract the downloaded zip file
+3. Open Chrome/Brave/Edge browser
+4. Go to `chrome://extensions` or `brave://extensions` or `edge://extensions`
+5. Enable `Developer mode` in the top-right corner
+6. Click `Load unpacked` button
+7. Select the extension folder
 
 ## Usage
 
