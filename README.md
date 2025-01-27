@@ -1,6 +1,6 @@
 # CUET CGPA Wizard Extension
 
-A Chromium extension that automatically calculates your CGPA from your CUET student portal's [Result table](https://course.cuet.ac.bd/result_published.php).
+An extension that automatically calculates your CGPA from your CUET student portal's [Result table](https://course.cuet.ac.bd/result_published.php).
 
 ## Features
 
@@ -12,8 +12,8 @@ A Chromium extension that automatically calculates your CGPA from your CUET stud
 
 1. [Click here](https://github.com/MahirSalahin/cuet-cgpa-wizard-extension/archive/refs/heads/main.zip) to download the extension
 2. Extract the downloaded zip file
-3. Open Chrome/Brave/Edge browser
-4. Go to `chrome://extensions` or `brave://extensions` or `edge://extensions`
+3. Open your browser
+4. Go to `chrome://extensions` or `brave://extensions` or `edge://extensions` or `opera://extensions`
 5. Enable `Developer mode` in the top-right corner
 6. Click `Load unpacked` button
 7. Select the extension folder
