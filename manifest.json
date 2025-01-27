@@ -20,6 +20,10 @@
       "js": ["content.js"]
     }
   ],
+  "web_accessible_resources": [{
+    "resources": ["images/*"],
+    "matches": ["https://course.cuet.ac.bd/*"]
+  }],
   "icons": {
     "16": "images/icon16.png",
     "48": "images/icon48.png",

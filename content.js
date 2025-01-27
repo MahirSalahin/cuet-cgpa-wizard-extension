@@ -51,20 +51,18 @@
                 }
 
                 .close-btn {
-                    position: absolute;
-                    top: 0px;
-                    right: 0px;
+                    position: relative;
                     background: rgba(255, 255, 255, 0.2);
                     border: none;
                     color: white;
-                    width: 32px;
-                    height: 32px;
-                    border-radius: 16px;
+                    width: 28px;
+                    height: 28px;
+                    border-radius: 14px;
                     cursor: pointer;
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    font-size: 24px;
+                    font-size: 20px;
                     font-weight: 300;
                     transition: all 0.3s ease;
                     padding: 0;
@@ -90,7 +88,8 @@
                     text-transform: uppercase;
                     letter-spacing: 1px;
                     opacity: 0.9;
-                    padding-right: 40px;
+                    padding-right: 0;
+                    margin-top: 15px;
                 }
 
                 .cgpa-value {
@@ -205,6 +204,32 @@
                 .cgpa-widget {
                     animation: slideIn 0.5s ease-out;
                 }
+
+                .widget-header {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding-bottom: 1px;
+                    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+                }
+
+                .title-container {
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                }
+
+                .wizard-icon {
+                    width: 24px;
+                    height: 24px;
+                    object-fit: contain;
+                }
+
+                .widget-title {
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: white;
+                }
             `;
             document.head.appendChild(styleSheet);
         }
@@ -291,7 +316,13 @@
             // Update widget content
             widget.innerHTML = `
                 <div class="cgpa-card">
-                    <button class="close-btn" id="close-btn">×</button>
+                    <div class="widget-header">
+                        <div class="title-container">
+                            <img src="${chrome.runtime.getURL('images/icon48.png')}" class="wizard-icon" alt="CGPA Wizard">
+                            <div class="widget-title">CUET CGPA Wizard</div>
+                        </div>
+                        <button class="close-btn" id="close-btn">×</button>
+                    </div>
                     <div class="cgpa-title">Overall CGPA</div>
                     <div class="cgpa-value">${cgpa.toFixed(2)}</div>
                 </div>
