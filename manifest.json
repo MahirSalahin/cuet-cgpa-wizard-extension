@@ -3,7 +3,10 @@
   "name": "CUET CGPA Wizard",
   "version": "1.0",
   "description": "Automatically calculates CGPA from CUET result table",
-  "permissions": ["activeTab", "scripting"],
+  "permissions": ["scripting"],
+  "host_permissions": [
+    "https://course.cuet.ac.bd/result_published.php"
+  ],
   "action": {
     "default_icon": {
       "16": "images/icon16.png",
