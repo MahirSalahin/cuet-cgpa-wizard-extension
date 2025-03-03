@@ -10,6 +10,10 @@ An extension that automatically calculates your CGPA from your CUET student port
 
 ## Installation
 
+### Microsoft Edge Users
+You can install the extension directly from the [Microsoft Edge Add-ons Store](https://microsoftedge.microsoft.com/addons/detail/cuet-cgpa-wizard/nplknbmilfmahpiodiofaepelaainjln).
+
+### Manual Installation
 1. [Click here](https://github.com/MahirSalahin/cuet-cgpa-wizard-extension/archive/refs/heads/main.zip) to download the extension
 2. Extract the downloaded zip file
 3. Open your browser
